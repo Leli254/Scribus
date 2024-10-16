@@ -3,12 +3,16 @@ from pydub import AudioSegment
 import logging
 
 # Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+    )
 
 
 def extract_audio_segment(input_file, start_ms, end_ms, output_file):
     """
-    Extracts a segment of the audio file between start_ms and end_ms and saves it to output_file.
+    Extracts a segment of the audio file between start_ms and end_ms,
+    and saves it to output_file.
 
     Args:
         input_file (str): The path to the input audio file.
