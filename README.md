@@ -1,11 +1,11 @@
 This repository contains a Python script to extract a segment from an audio file and transcribe the speech using the Google Web Speech API. The script can process any audio file supported by the pydub library and convert it into a transcribed text using speech_recognition.
 
-#Features
+# Features
 * Extracts a specific portion of an audio file.
 * Transcribes the extracted audio segment using the Google Web Speech API.
 * Handles exceptions and logs errors using Python's logging module.
 
-#Prerequisites
+# Prerequisites
 Before running the script, ensure that you have the following installed:
 
 * Python 3.6 or later
@@ -13,12 +13,13 @@ Before running the script, ensure that you have the following installed:
 * speech_recognition library
 * ffmpeg or libav (for audio processing by pydub)
 
-#Installation
+# Installation
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/audio-transcription.git
+```
+git clone https://github.com/Leli254/Scribus.git
+```
+
 Navigate to the project directory:
 
 bash
