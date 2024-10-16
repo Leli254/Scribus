@@ -1,17 +1,19 @@
 This repository contains a Python script to extract a segment from an audio file and transcribe the speech using the Google Web Speech API. The script can process any audio file supported by the pydub library and convert it into a transcribed text using speech_recognition.
 
 #Features
-Extracts a specific portion of an audio file.
-Transcribes the extracted audio segment using the Google Web Speech API.
-Handles exceptions and logs errors using Python's logging module.
-Prerequisites
+* Extracts a specific portion of an audio file.
+* Transcribes the extracted audio segment using the Google Web Speech API.
+* Handles exceptions and logs errors using Python's logging module.
+
+#Prerequisites
 Before running the script, ensure that you have the following installed:
 
-Python 3.6 or later
-pydub library
-speech_recognition library
-ffmpeg or libav (for audio processing by pydub)
-Installation
+* Python 3.6 or later
+* pydub library
+* speech_recognition library
+* ffmpeg or libav (for audio processing by pydub)
+
+#Installation
 Clone the repository:
 
 bash
